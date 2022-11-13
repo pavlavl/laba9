@@ -1,0 +1,23 @@
+{
+  "name": "unit14",
+  "version": "1.0.0",
+  "description": "'Selenium WebDriver Project'",
+  "main": "unit14.js",
+  "scripts": {
+    "test": "mocha",
+    "task1": "node ./tests/BringItOn.js",
+    "task2": "node ./tests/ICanWin.js",
+    "task3": "node ./tests/MyTestCase.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  },
+  "directories": {
+    "test": "tests"
+  }
+}
